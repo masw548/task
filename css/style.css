@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/*...................back..............*/
+.back{
+  height: 100vh;
+  background: url("../img/pikaso-man-in-a-red-robe-standing-on-a-cliff.webp") no-repeat ;
+  background-size: cover;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  z-index:1 ;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000074;
+}
+.containe-r{
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  z-index: 5;
+}
+/*...................*/
+
+/*..................*/
+.logo{
+  cursor: pointer;
+}
+li{
+  cursor: pointer;
+  display: inline-block;
+  padding:0 10px;
+}
+li:hover{
+  border-bottom: 2px solid #fff;
+}
+.left{
+  width: 40%;
+}
+.right{
+  width: 25%;
+  transform: translateX(-50px);
+}
+.black{
+  padding: 30px 20px;
+  background-color: #111111c0;
+  border-radius: 8px;
+}
+input{
+  border: none;
+  border-bottom: 1px solid #888;
+  background-color: transparent;
+}
+i:hover{
+  transform: translatey(-2px);
+  cursor: pointer;
+}
